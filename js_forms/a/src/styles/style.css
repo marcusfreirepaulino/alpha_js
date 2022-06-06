@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Rebelton;
+    src: url(../../assets/fonts/REBELTON-Medium.woff);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    height: 100vh;
+    background-color: #DBDFFD;
+
+}
+
+legend{
+    font-family: Rebelton;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+
+    padding: 1rem 3rem;
+    gap: 1em;
+}
+
+button{
+    background-color: #646FD4;
+    transition: 0.4s;
+    color: #FFFFFF;
+}
+
+button:hover{
+    background-color: #242F9B;
+}
+

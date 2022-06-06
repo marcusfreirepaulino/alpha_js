@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/styles/style.css">
+</head>
+<body>
+    <main>
+       <div class="title-container"> 
+           <h1>Até quando você vai durar?</h1>
+        <h2>(Estatistícamente falando)</h2>
+    </div>
+            <div class="content-container">
+                <div class="sex-container">
+                    <h3>Sexo:</h3>
+                    <label for="masculine">Masculino</label>
+                    <input type="radio" name="sex" id="masculine" value="masculine">
+                    <label for="feminine">Feminino</label>
+                    <input type="radio" name="sex" id="feminine" value="feminine">
+                </div>
+                <div class="age-container">
+                    <label for="age">Idade:</label>
+                    <input type="date" name="age" id="age" required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}">
+                    <button type="button" id="deathBtn" onclick="deathCalculator()">Descubra</button>
+                </div>
+            </div>
+    </main>
+    <div class="content-hidden">
+        <p id="text"></p>
+
+    </div>
+
+
+
+
+    <script src="src/scripts/script.js"></script>
+</body>
+</html>

@@ -1,5 +1,9 @@
 body{
     font-family: Roboto;
+    font-size: 3rem;
+
+    color: #F6FBF4;
+    background-color: #C2DED1;
 }
 
 button{
@@ -11,7 +15,7 @@ button{
     border: none;
 
     background-color: #5FD068;
-    color:#F6FBF4;
+    color: inherit;
     font-family: inherit;
 
     cursor: pointer;
