@@ -1,8 +1,6 @@
 
     function deathCalculator(){
-        console.log('test');
         let birthDay = new Date(document.getElementById('age').value);
-        
         const gender = document.querySelectorAll('input[type="radio"]');
         const today = new Date();
         
