@@ -1,0 +1,78 @@
+:root{
+    --headerPurple:#262157;
+    --mainPurple: #2C2B69;
+    --gradientPurple: #7D46B8;
+    --gradientBlue: #37B6D8;
+    --border: #57559E;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to top, var(--gradientBlue), var(--gradientPurple));
+
+    color: #FFFFFF;
+    font-family: Roboto;
+}
+
+header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--headerPurple);
+
+    border-radius: 1rem 1rem 0 0;
+    font-weight: 400;
+    
+    padding: 1em 2em;
+}
+
+main{
+    background-color: var(--mainPurple);
+    border-radius: 0 0 1rem 1rem;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    
+}
+
+.form-input{
+    display: flex;
+    gap: 2em
+}
+
+
+
+input[type = "text"]{
+    border-radius: 0.35rem;
+    border: none;
+    padding: 0.15em 0.5em;
+    font-size: 1.25rem;
+    line-height: 0.8em;
+}
+
+button{
+    background-color: #60B12D;
+    border-radius: 0.35rem;
+    color: #FFFFFF;
+    border: none;
+    padding: 0.5em 2em;
+    font-size: 1rem;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #4E9021;
+}
