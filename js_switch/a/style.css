@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+:root{
+    --button: #090C08;
+    --background: #E6FDFF;
+    --main: #7C90DB;
+    --header: #495867;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background);
+
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+header{
+    background-color: var(--header);
+    color: var(--pink);
+    font-size: 2rem;
+    border-radius: 1rem 1rem 0 0;
+    padding: 0 2rem;
+
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: var(--main);
+    padding: 1rem;
+    border-radius: 0 0 1rem 1rem;
+}
+
+input[type = "number"]{
+    text-align: center;
+}
+
+
+
+.button-wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+button{
+    background-color: var(--button);
+    border: none;
+    border-radius: 0.35rem;
+
+    font-size: 1rem;
+    padding: 0.5em 2em;
+    color: #FFFFFF;
+    font-family: inherit;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+select{
+    padding: 1em;
+    font-family: inherit;
+    border-radius: 0.85rem;
+    border: 0;
+    background-color: var(--button);
+    color: #FFFFFF;
+}
+
+.hidden-result{
+    width: 250px;
+    height: 250px;
+}
