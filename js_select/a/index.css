@@ -1,0 +1,80 @@
+
+:root{
+    /* --select: #4960a9; */
+    --sections: #003274;
+    --background: #ebeeff;
+    --border: #d1a617;
+}
+
+/* General */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+html, body{
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+
+    background-color: var(--background);
+    color: #FFFFFF;
+}
+
+
+main{
+    display: flex;
+    gap: 2rem;
+}
+
+
+/* First Section*/
+
+
+.title{
+    text-align: center;
+    font-family: Cambria;
+}
+
+
+.section{
+    width: 350px;
+    height: 350px;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+
+    background-color: var(--sections);
+    border: var(--border) solid 2px;
+    border-radius: 1rem;
+}
+
+.input{
+    justify-content: space-evenly;
+}
+
+
+/* Second Section */
+
+
+#post-image{
+    min-width: 250px;
+    max-height: 140px;
+    border-radius: 1rem;
+
+}
+
+.car-img-container{
+    padding: 1rem;
+    
+}
+
+ul{
+    list-style: none;
+}

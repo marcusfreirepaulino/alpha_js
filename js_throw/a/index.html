@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <form>
+            <fieldset>
+                <div class="name-container">
+                    <label for="name">Nome completo:</label>
+                    <input type="text" id="name">
+                </div>
+                <div class="birthdate-container">
+                    <span>Data de nascimento:</span>
+                    <label for="birthDay">Dia:</label>
+                    <input type="text" id="birthDay" class="birthdate-input" placeholder="dd" maxlength="2">
+                    <label for="birthMonth">Mês:</label>
+                    <input type="text" id="birthMonth" class="birthdate-input" placeholder="mm" maxlength="2">
+                    <label for="birthYear">Ano:</label>
+                    <input type="text" id="birthYear" class="birthdate-input" placeholder="aaaa" maxlength="4">
+                </div>
+                <div class="weight-container">
+                    <label for="weight">Peso(kg):</label>
+                    <input type="text" id="weight">
+                </div>
+                <div class="height-container">
+                    <label for="height">Altura(cm):</label>
+                    <input type="text" id="height">
+                </div>
+                <div class="gender-container">
+                    <label for="gender">Gênero:</label>
+                    <select name="gender" id="gender">
+                        <option value="" disabled selected hidden>Escolha</option>
+                        <option value="masculine">Masculino</option>
+                        <option value="feminine">Feminino</option>
+                        <option value="other">Outro</option>
+                    </select>
+                </div>
+                <div class="button-container">
+                    <button type="button">Enviar</button>
+                </div>
+                <div class="post-content">
+                <p id="post-error-message"></p>
+                <p id="post-json-string"></p>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

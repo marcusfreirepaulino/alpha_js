@@ -1,0 +1,51 @@
+
+:root{
+    --background:#0B4468;
+    --font: #291F1E;
+    --main: #FFCA00;
+}
+
+
+
+/* General */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+html, body{
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+
+    background-color: var(--background);
+    color: var(--font);
+}
+
+/* Main */
+
+main{
+    background-color: var(--main);
+    max-width: 60%;
+    padding: 1rem 5rem;
+    border-radius: 0.5rem;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
+input{
+    border-radius: 0.25rem;
+    border: solid var(--font) 1px;
+    padding: 0.5em 1em;
+    font-size: 0.85rem;
+}
