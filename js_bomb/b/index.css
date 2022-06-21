@@ -1,0 +1,19 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html, body, main{
+    font-family: arial;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 10rem;
+    cursor: pointer;
+}

@@ -1,0 +1,63 @@
+:root{
+    --background: #232529;
+    --green: #469269;
+    --focusgreen: #67B689;
+    --red: #E3796A;
+    --fontcolor: #E2E3E7;
+    --grey: #696E79;
+    --bordercolor: #35383F;
+}
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+html, body{
+    min-height: 100%;
+    background-color: var(--background);
+    color: var(--fontcolor);
+    font-family: Segoe UI;
+}
+
+header{
+    border-bottom: var(--bordercolor) solid 4px;
+    padding: 1em 0 1em 3em;
+}
+
+main{
+    display: flex;
+    max-width: 100%;
+    padding: 2em 0 0 6em;
+}
+
+
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.text-input-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+button{
+    background-color: var(--green);
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1em 1.5em;
+    border-radius: 0.65rem;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--focusgreen);
+}
